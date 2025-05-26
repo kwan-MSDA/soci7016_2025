@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "HKU SOCI7016 Quantitative Research Methods"
+  description: "A course on quantitative research methods in social sciences"
+  
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: syllabus_testing.qmd
+        text: Syllabus
+    #right:
+     # - icon: github
+      #  href: https://github.com/kwan-MSDA/soci7016_2025
+  #sidebar:
+   # style: "docked"
+    #contents:
+     # - syllabus.qmd
+      
+format:
+  html:
+    theme:
+      - cosmo
+      #- brand
+    css: styles.css
+    #toc: true
+
+
+

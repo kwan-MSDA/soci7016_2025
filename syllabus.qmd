@@ -1,0 +1,22 @@
+---
+title: "Syllabus"
+date: 2025-05-26
+menu:
+  main:
+    weight: 2
+---
+
+# Syllabus
+
+## Course Overview
+This course introduces data science techniques for social science research, covering data visualization, statistical modeling, and R programming.
+
+## Objectives
+- Learn to wrangle and visualize data using R.
+- Understand statistical methods for social science research.
+- Apply quantitative methods to social science research data.
+
+## Policies
+- **Attendance**: Expected at all sessions.
+- **Assignments**: Submit via GitHub Classroom.
+- **Grading**: Based on problem sets, projects, and participation.

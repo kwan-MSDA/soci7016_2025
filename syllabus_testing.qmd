@@ -1,0 +1,48 @@
+---
+title: "Syllabus"
+date: 2025-05-26
+menu:
+  main:
+    weight: 2
+---
+
+## Instructor
+
+::: {.instructor}
+**KT Wong**  \
+
+Email: [kwanto@hku.hk](mailto:kwanto@hku.hk)  \
+
+Office Hours: By appointment    
+
+
+:::
+
+## Course Details
+
+::: {.course-details}
+
+**Time**:  7pm-9:50pm  \
+
+**Location**: TBA \
+
+**Moodle**:  \
+
+**Description**: This course provides an introduction to quantitative research methods in social science research, covering statistical methods, data visualization, and causal inference using R
+
+**Prerequisites**: None, though familiarity with basic statistics is helpful
+
+:::
+
+## Course Overview
+This course introduces data science techniques for social science research, covering data visualization, statistical modeling, and R programming.
+
+## Objectives
+- Learn to wrangle and visualize data using R.
+- Understand statistical methods for social science research.
+- Apply quantitative methods to social science research data.
+
+## Policies
+- **Attendance**: Expected at all sessions.
+- **Assignments**: around 3 assignments in total
+- **Grading**: Based on assignments, test, group project presentations, and class participation

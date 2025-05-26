@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SOCI7016 Quantitative Research Methods",
+    "section": "",
+    "text": "Welcome to the course website for Quantitative Research Methods, Fall 2025.\nThis course introduces you to data wrangling, visualization, and analysis using R, with applications to social science research.\nNavigate using the menu above to find the syllabus, schedule, materials, and assignments."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "quarto_to_github.html",
+    "href": "quarto_to_github.html",
+    "title": "Create a .nojekyll file in the project root to prevent GitHub from processing the site with Jekyll",
+    "section": "",
+    "text": "git remote add origin https://github.com/kwan-MSDA/SOCI7016_2025.git git branch -M main git add . git commit -m “Initial commit” git push -u origin main\n\nCreate a .nojekyll file in the project root to prevent GitHub from processing the site with Jekyll\n#touch .nojekyll"
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "This course introduces data science techniques for social science research, covering data visualization, statistical modeling, and R programming.\n\n\n\n\nLearn to wrangle and visualize data using R.\nUnderstand statistical methods for social science research.\nApply quantitative methods to social science research data.\n\n\n\n\n\nAttendance: Expected at all sessions.\nAssignments: Submit via GitHub Classroom.\nGrading: Based on problem sets, projects, and participation."
+  },
+  {
+    "objectID": "syllabus.html#course-overview",
+    "href": "syllabus.html#course-overview",
+    "title": "Syllabus",
+    "section": "",
+    "text": "This course introduces data science techniques for social science research, covering data visualization, statistical modeling, and R programming."
+  },
+  {
+    "objectID": "syllabus.html#objectives",
+    "href": "syllabus.html#objectives",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Learn to wrangle and visualize data using R.\nUnderstand statistical methods for social science research.\nApply quantitative methods to social science research data."
+  },
+  {
+    "objectID": "syllabus.html#policies",
+    "href": "syllabus.html#policies",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Attendance: Expected at all sessions.\nAssignments: Submit via GitHub Classroom.\nGrading: Based on problem sets, projects, and participation."
+  },
+  {
+    "objectID": "syllabus_testing.html",
+    "href": "syllabus_testing.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "KT Wong\n\nEmail: kwanto@hku.hk\n\nOffice Hours: By appointment"
+  },
+  {
+    "objectID": "syllabus_testing.html#instructor",
+    "href": "syllabus_testing.html#instructor",
+    "title": "Syllabus",
+    "section": "",
+    "text": "KT Wong\n\nEmail: kwanto@hku.hk\n\nOffice Hours: By appointment"
+  },
+  {
+    "objectID": "syllabus_testing.html#course-details",
+    "href": "syllabus_testing.html#course-details",
+    "title": "Syllabus",
+    "section": "Course Details",
+    "text": "Course Details\n\nTime: 7pm-9:50pm\n\nLocation: TBA\n\nMoodle:\n\nDescription: This course provides an introduction to quantitative research methods in social science research, covering statistical methods, data visualization, and causal inference using R\nPrerequisites: None, though familiarity with basic statistics is helpful"
+  },
+  {
+    "objectID": "syllabus_testing.html#course-overview",
+    "href": "syllabus_testing.html#course-overview",
+    "title": "Syllabus",
+    "section": "Course Overview",
+    "text": "Course Overview\nThis course introduces data science techniques for social science research, covering data visualization, statistical modeling, and R programming."
+  },
+  {
+    "objectID": "syllabus_testing.html#objectives",
+    "href": "syllabus_testing.html#objectives",
+    "title": "Syllabus",
+    "section": "Objectives",
+    "text": "Objectives\n\nLearn to wrangle and visualize data using R.\nUnderstand statistical methods for social science research.\nApply quantitative methods to social science research data."
+  },
+  {
+    "objectID": "syllabus_testing.html#policies",
+    "href": "syllabus_testing.html#policies",
+    "title": "Syllabus",
+    "section": "Policies",
+    "text": "Policies\n\nAttendance: Expected at all sessions.\nAssignments: around 3 assignments in total\nGrading: Based on assignments, test, group project presentations, and class participation"
+  }
+]

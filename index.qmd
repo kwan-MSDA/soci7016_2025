@@ -1,0 +1,9 @@
+---
+title: "SOCI7016 Quantitative Research Methods"
+---
+
+Welcome to the course website for Quantitative Research Methods, Fall 2025. 
+
+This course introduces you to data wrangling, visualization, and analysis using R, with applications to social science research.
+
+Navigate using the menu above to find the syllabus, schedule, materials, and assignments.

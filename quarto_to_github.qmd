@@ -1,0 +1,8 @@
+git remote add origin https://github.com/kwan-MSDA/SOCI7016_2025.git
+git branch -M main
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+
+# Create a .nojekyll file in the project root to prevent GitHub from processing the site with Jekyll
+#touch .nojekyll
