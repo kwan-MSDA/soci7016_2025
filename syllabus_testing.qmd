@@ -1,6 +1,6 @@
 ---
 title: "Syllabus"
-date: 2025-05-26
+date: "`r Sys.Date()`"
 menu:
   main:
     weight: 2
@@ -22,7 +22,7 @@ Office Hours: By appointment
 
 ::: {.course-details}
 
-**Time**:  7pm-9:50pm  \
+**Time**:  7pm -9:50pm  \
 
 **Location**: TBA \
 
@@ -30,7 +30,7 @@ Office Hours: By appointment
 
 **Description**: This course provides an introduction to quantitative research methods in social science research, covering statistical methods, data visualization, and causal inference using R
 
-**Prerequisites**: None, though familiarity with basic statistics is helpful
+**Prerequisites**: None, though familiarity with basic statistics and calculus is helpful
 
 :::
 

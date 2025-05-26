@@ -10,7 +10,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: syllabus_testing.qmd
+      - href: syllabus_tentative.qmd
         text: Syllabus
     #right:
      # - icon: github

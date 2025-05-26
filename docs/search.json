@@ -67,7 +67,7 @@
     "href": "syllabus_testing.html#course-details",
     "title": "Syllabus",
     "section": "Course Details",
-    "text": "Course Details\n\nTime: 7pm-9:50pm\n\nLocation: TBA\n\nMoodle:\n\nDescription: This course provides an introduction to quantitative research methods in social science research, covering statistical methods, data visualization, and causal inference using R\nPrerequisites: None, though familiarity with basic statistics is helpful"
+    "text": "Course Details\n\nTime: 7pm -9:50pm\n\nLocation: TBA\n\nMoodle:\n\nDescription: This course provides an introduction to quantitative research methods in social science research, covering statistical methods, data visualization, and causal inference using R\nPrerequisites: None, though familiarity with basic statistics and calculus is helpful"
   },
   {
     "objectID": "syllabus_testing.html#course-overview",
@@ -89,5 +89,75 @@
     "title": "Syllabus",
     "section": "Policies",
     "text": "Policies\n\nAttendance: Expected at all sessions.\nAssignments: around 3 assignments in total\nGrading: Based on assignments, test, group project presentations, and class participation"
+  },
+  {
+    "objectID": "syllabus_tentative.html",
+    "href": "syllabus_tentative.html",
+    "title": "HKU SOCI7016 - Quantitative research methods",
+    "section": "",
+    "text": "Day\nTime\nLocation\n\n\n\n\nLectures\nTBA\n7pm - 9:50pm\nTBA"
+  },
+  {
+    "objectID": "syllabus_tentative.html#course-details",
+    "href": "syllabus_tentative.html#course-details",
+    "title": "HKU SOCI7016 - Quantitative research methods",
+    "section": "",
+    "text": "Day\nTime\nLocation\n\n\n\n\nLectures\nTBA\n7pm - 9:50pm\nTBA"
+  },
+  {
+    "objectID": "syllabus_tentative.html#course-objectives",
+    "href": "syllabus_tentative.html#course-objectives",
+    "title": "HKU SOCI7016 - Quantitative research methods",
+    "section": "Course objectives",
+    "text": "Course objectives\nIn this course, you will learn the basics of quantitative methods as applied to the social sciences. This involves two broad skill sets. First, a good command of the conceptual foundations of statistics is essential to understand why social scientists analyze data in some specific ways. Second, a hands-on experience in the computing and programming tools (R in our course) to both manage and analyze data is crucial to be able to apply the conceptual foundations of statistics to real-world data."
+  },
+  {
+    "objectID": "syllabus_tentative.html#course-learning-outcomes",
+    "href": "syllabus_tentative.html#course-learning-outcomes",
+    "title": "HKU SOCI7016 - Quantitative research methods",
+    "section": "Course learning outcomes",
+    "text": "Course learning outcomes\nAt the end of the course you should be able to:\n\nSummarize and visualize data\nWrangle data into tidy forms\nUse R for data analysis\nUnderstand the basic concepts of probability and statistics\nQuantify uncertainty in data analysis\nBe able to use regression models to analyze data"
+  },
+  {
+    "objectID": "syllabus_tentative.html#assessment-strategies",
+    "href": "syllabus_tentative.html#assessment-strategies",
+    "title": "HKU SOCI7016 - Quantitative research methods",
+    "section": "Assessment Strategies",
+    "text": "Assessment Strategies\n\nClass participation (10%)\nAssignments (18%)\nMidterm (42%)\nFinal project presentation (30%)"
+  },
+  {
+    "objectID": "syllabus_tentative.html#course-schedule",
+    "href": "syllabus_tentative.html#course-schedule",
+    "title": "HKU SOCI7016 - Quantitative research methods",
+    "section": "Course schedule",
+    "text": "Course schedule\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\n\n\n\n\n1\n2025-09-??\nOverview and Introduction to R\n\n\n2\n2025-09-??\nData visualization\n\n\n3\n2025-09-??\nData wrangling\n\n\n4\n2025-09-??\nProbability and distributions\n\n\n5\n2025-10-??\nSampling distributions\n\n\n6\n2025-10-??\nConfidence intervals and Hypothesis testing\n\n\n7\n2025-10-19\nReading Week\n\n\n8\n2025-10-??\nLinear regression I\n\n\n9\n2025-10-??\nLinear regression II\n\n\n10\n2025-11-??\nLogistic regression and more\n\n\n11\n2025-11-??\nFixed-effects and DID\n\n\n12\n2025-11-??\nMidterm\n\n\n13\n2025-11-??\nFinal project presentations"
+  },
+  {
+    "objectID": "syllabus_tentative.html#final-project-presentation",
+    "href": "syllabus_tentative.html#final-project-presentation",
+    "title": "HKU SOCI7016 - Quantitative research methods",
+    "section": "Final project presentation",
+    "text": "Final project presentation\nThe final project presentation is an opportunity for you to present your final project to the class. Each group will have a group of 4 students, with plus/minus 1 flexibility. This is a data analysis project about a particular topic excites you. No matter what the topic your group choose, your group need formula at least one key research question, find data to answer that question by using the quantitative methods, and present those results for educated public consumption. The presentation should include the following:\n\nAn introduction to the research question\nAn overview of the data, including its source, collection method, and any relevant background information\nAn overview of the methods used\nA discussion of the results\nA brief discussion of the implications of the research for theory, policy or practice\nA conclusion\nA brief discussion of the limitations of the study (optional)\nA brief discussion of the future directions of the research (optional)"
+  },
+  {
+    "objectID": "syllabus_tentative.html#reference",
+    "href": "syllabus_tentative.html#reference",
+    "title": "HKU SOCI7016 - Quantitative research methods",
+    "section": "Reference",
+    "text": "Reference\nI will draw materials from the following books in this course:\n\nImai, Kosuke and Nora Webb Willaims. 2022. Quantitative Social Science: An Introduction with Tidyverse, 2022. Princeton University Press.\nIsmay, Chester and Albert Y. Kim. 2022. Statistical Inference via Data Science: A ModernDive into R and the Tidyverse."
+  },
+  {
+    "objectID": "syllabus_tentative.html#late-policy",
+    "href": "syllabus_tentative.html#late-policy",
+    "title": "HKU SOCI7016 - Quantitative research methods",
+    "section": "Late Policy",
+    "text": "Late Policy\n\nFor problem sets, late submissions will be penalized two sub-grade if submitted 0-24 hours late and penalized 4 sub-grade if submitted 24-48 hours late. We will not accept any submissions after 48 hours — we will get F for the assignment."
+  },
+  {
+    "objectID": "syllabus_tentative.html#academic-integrity",
+    "href": "syllabus_tentative.html#academic-integrity",
+    "title": "HKU SOCI7016 - Quantitative research methods",
+    "section": "Academic Integrity",
+    "text": "Academic Integrity\nThe work that you do in the assignments should be your own work. You may seek help from others (including AI) so long as this does not result in someone else (like AI) completing your work for you. You should never copy and paste code from another student or elsewhere (e.g. websites, classmates, AI).\nThere is no collaboration allowed on the exam."
   }
 ]
