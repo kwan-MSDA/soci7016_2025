@@ -63,7 +63,7 @@ At the end of the course you should be able to:
 
 ## Midterm exam
 
-The midterm exam will be on Nov 19th. It will last 150 mins. It will cover all the materials covered in the syllabus and it will be a in-class exam. If you miss it, you will fail in this part. You will not be allowed to collaborate with other students or be able to communicate with any humans/AI/Internets about the exam. More information about the exam will be provided as it approaches.
+The midterm exam will be on **Nov 19th**. It will last 150 mins. It will cover all the materials covered in the syllabus and it will be a in-class exam. If you miss it, you will fail in this part. You will not be allowed to collaborate with other students or be able to communicate with any humans/AI/Internets about the exam. More information about the exam will be provided as it approaches.
 
 ## Group Final project presentation
 
@@ -88,7 +88,7 @@ This is a `data analysis` project about a particular topic excites your group. N
 
 -->
 
-2. The final project presentation 
+2. The final project presentation (**Nov 26th**)
 
 It is an opportunity for you to present your final project to the class.  The presentation should include the following:
 
@@ -107,7 +107,7 @@ It is an opportunity for you to present your final project to the class.  The pr
 + Tables should use kable or modelsummary to format output nicely
 -->
 
-3. A blog/website
+3. A blog/website (**Nov 30th**)
 
 + Present and interpret your findings in a blog not more than 800 words and attached
 with at least 3 visualization of data and results
@@ -126,7 +126,13 @@ I will draw materials from the following books in this course:
 
 ## Late Policy
 
-+ For problem sets, late submissions will be penalized two sub-grade if submitted 0-24 hours late and penalized 4 sub-grade if submitted 24-48 hours late. We will not accept any submissions after 48 hours --- we will get F for the assignment.
++ All course work assignment due dates will not be deferred except in cases of medical emergencies or family bereavement, for which written evidence must be supplied.
+
++ Applications for extension of submission deadline must be made via email to the course instructor **prior to the original deadline**.
+
++ Late submissions will be penalized **2 sub-grade** if submitted 0-24 hours late and penalized **4 sub-grade** if submitted 24-48 hours late. We will not accept any submissions after 48 hours --- we will get **F** for the task.
+
++ Technical difficulties are not acceptable reasons for lateness.
 
 ## Academic honesty and plagiarism
 
@@ -141,6 +147,42 @@ The university has high expectations for ethical conduct among students. Student
 
 
 Please be reminded that disciplinary actions in connection with the violation of academic honesty may result in serious consequences. Plagiarism may be handled by the individual teacher or reported to the University Disciplinary Committee.
+
++ Resources: 
+  + [HKU Teaching & Learning – Plagiarism](https://tl.hku.hk/plagiarism/)
+  + [HKU Online Learning – Information Literacy Training: Academic Honesty](https://learning.hku.hk/catalog/course/ilt01/)
+  
++ In this class, we will use AI tools, including ChatGPT, that harness large language models as pedagogical opportunities for learning and teaching in the course. Doing so will align with one of our course goals, which pertains to the evaluation of arguments and justification with evidence.
+
++ Our class agreement will follow the University’s Policy on Use of Generative Artificial Intelligence for Teaching and Learning, which notes that “students who fail to make a full declaration and proper citation according to the course requirements may face disciplinary action”.
+
++ For this class, all submitted work should be written in your own words. Just as you cannot take credit for others’ writing in your assignments, you cannot use paraphrasing software (“spinbots”) or AI writing software (like ChatGPT) and submit the output as your own. Doing so in this is a violation of the University’s [Policy on Use of Generative Artificial Intelligence for Teaching and Learning](https://intraweb.hku.hk/reserved_1/tlearn/genai/gaitf-policy-dissemination-202309.pdf), which notes that “students who fail to make a full declaration and proper citation according to the course requirements may face disciplinary action”. At the beginning of the semester, we will identify examples of AI tools and discuss what constitutes plagiarism, cheating, and academic dishonesty. This will help to ensure that we are all on the same page about the policies for this course and how they connect to our learning outcomes.
+
+
++ Course privacy statement As noted in the Department’s Guidelines on the recording of lectures and teaching sessions, students may not audio or video record class meetings without permission from the instructor (and guest speakers, when applicable). If the instructor grants permission or if the teaching team posts videos themselves, students may keep recordings only for personal use and may not post recordings on the Internet, or otherwise distribute them. These policies protect the privacy rights of instructors and students, and the intellectual property and other rights of the university. Students who need lectures recorded for the purposes of an academic accommodation should contact CEDARS Special Educational Needs (SEN) Support.
+
+
+## Research ethics
+
+This course involves completion of a research project as coursework. If your research involves human participants, it is necessary to obtain ethical approval prior to collecting data. Application forms should be submitted to your instructor/tutor for endorsement and onward forwarding to the Department for processing.
+
+
+We are expected to adhere to the highest ethical standards in Social Science Research. For example, the American Sociological Association’s [Code of Ethics](https://www.asanet.org/wp-content/uploads/asa_code_of_ethics-june2018a.pdf) sets forth the principles and ethical standards that underlie sociologists’ scientific and professional responsibilities and conduct. 
+
+## Student wellbeing
+
+Life at university can get complicated. If you’re feeling stressed, overwhelmed, lost, anxious, depressed or are struggling with personal issues, do not hesitate to contact CEDARS [Counselling and Psychological Services (CoPE)](https://www.cedars.hku.hk/cope/cps). These services are free and completely confidential.
+
+
++Room 301-323, 3/F, Main Building
+
++ 3917 8388
+
++ <cedars-cope@hku.hk>
+
++ [CoPE appointment booking](https://www.cedars.hku.hk/cope/cps/appointment)
+
+
 
 ```{r}
 #| echo: False
