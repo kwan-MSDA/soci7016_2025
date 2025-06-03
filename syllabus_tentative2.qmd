@@ -9,6 +9,9 @@ format:
   html:
     theme: cosmo
     html-math-method: katex
+  pdf:
+    pdf-engine: pdflatex
+    fontfamily: anttor
     
 ---
 

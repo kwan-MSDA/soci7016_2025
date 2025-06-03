@@ -159,5 +159,96 @@
     "title": "HKU SOCI7016 - Quantitative research methods",
     "section": "Academic Integrity",
     "text": "Academic Integrity\nThe work that you do in the assignments should be your own work. You may seek help from others (including AI) so long as this does not result in someone else (like AI) completing your work for you. You should never copy and paste code from another student or elsewhere (e.g. websites, classmates, AI).\nThere is no collaboration allowed on the exam."
+  },
+  {
+    "objectID": "syllabus_tentative2.html",
+    "href": "syllabus_tentative2.html",
+    "title": "HKU SOCI7016 - Quantitative research methods",
+    "section": "",
+    "text": "Format\nDay\nTime\nLocation\n\n\n\n\nLectures\nWed (to be confirmed)\n7pm - 9:50pm\nTBA"
+  },
+  {
+    "objectID": "syllabus_tentative2.html#course-details",
+    "href": "syllabus_tentative2.html#course-details",
+    "title": "HKU SOCI7016 - Quantitative research methods",
+    "section": "",
+    "text": "Format\nDay\nTime\nLocation\n\n\n\n\nLectures\nWed (to be confirmed)\n7pm - 9:50pm\nTBA"
+  },
+  {
+    "objectID": "syllabus_tentative2.html#course-objectives",
+    "href": "syllabus_tentative2.html#course-objectives",
+    "title": "HKU SOCI7016 - Quantitative research methods",
+    "section": "Course objectives",
+    "text": "Course objectives\nIn this course, you will learn the basics of quantitative methods as applied to the social sciences. This involves two broad skill sets. First, a good command of the conceptual foundations of statistics is essential to understand why social scientists analyze data in some specific ways. Second, a hands-on experience in the computing and programming tools (R in our course) to both manage and analyze data is crucial to be able to apply the conceptual foundations of statistics to real-world data."
+  },
+  {
+    "objectID": "syllabus_tentative2.html#course-learning-outcomes",
+    "href": "syllabus_tentative2.html#course-learning-outcomes",
+    "title": "HKU SOCI7016 - Quantitative research methods",
+    "section": "Course learning outcomes",
+    "text": "Course learning outcomes\nAt the end of the course you should be able to:\n\nUse R for data analysis\nSummarize and visualize data\nWrangle data into tidy forms\nUnderstand the basic concepts of probability and statistics\nQuantify uncertainty in data analysis\nBe able to use regression models to analyze data"
+  },
+  {
+    "objectID": "syllabus_tentative2.html#assessment-strategies-tentative",
+    "href": "syllabus_tentative2.html#assessment-strategies-tentative",
+    "title": "HKU SOCI7016 - Quantitative research methods",
+    "section": "Assessment Strategies (tentative)",
+    "text": "Assessment Strategies (tentative)\n\nClass participation (10%)\nMidterm exam (40%)\nGroup Final project (50%)\n\nproposal (10%)\npresentation (20%)\na blog/website (20%)"
+  },
+  {
+    "objectID": "syllabus_tentative2.html#course-schedule",
+    "href": "syllabus_tentative2.html#course-schedule",
+    "title": "HKU SOCI7016 - Quantitative research methods",
+    "section": "Course schedule",
+    "text": "Course schedule\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\n\n\n\n\n1\n2025-09-03\nOverview and Introduction to R\n\n\n2\n2025-09-10\nData visualization\n\n\n3\n2025-09-17\nData wrangling\n\n\n4\n2025-09-24\nProbability and distributions\n\n\n5\n2025-10-01\nSampling distributions\n\n\n6\n2025-10-08\nConfidence intervals and Hypothesis testing\n\n\n7\n2025-10-15\nReading Week\n\n\n8\n2025-10-22\nLinear regression I\n\n\n9\n2025-10-29\nLinear regression II\n\n\n10\n2025-11-05\nLogistic regression and more\n\n\n11\n2025-11-12\nFixed-effects and DID\n\n\n12\n2025-11-19\nMidterm\n\n\n13\n2025-11-26\nFinal project presentations"
+  },
+  {
+    "objectID": "syllabus_tentative2.html#midterm-exam",
+    "href": "syllabus_tentative2.html#midterm-exam",
+    "title": "HKU SOCI7016 - Quantitative research methods",
+    "section": "Midterm exam",
+    "text": "Midterm exam\nThe midterm exam will be on Nov 19th. It will last 150 mins. It will cover all the materials covered in the syllabus and it will be a in-class exam. If you miss it, you will fail in this part. You will not be allowed to collaborate with other students or be able to communicate with any humans/AI/Internets about the exam. More information about the exam will be provided as it approaches."
+  },
+  {
+    "objectID": "syllabus_tentative2.html#group-final-project-presentation",
+    "href": "syllabus_tentative2.html#group-final-project-presentation",
+    "title": "HKU SOCI7016 - Quantitative research methods",
+    "section": "Group Final project presentation",
+    "text": "Group Final project presentation\nEach group will have a group of 3 students, with plus/minus 1 flexibility. If you really want to do an individual project, please seek my approval first.\nThis is a data analysis project about a particular topic excites your group. No matter what the topic your group choose, your group need formula at least one key research question, find data to answer that question by using quantitative methods, and present those results for educated population.\n\nA proposal (submission due: Nov 5th 5pm in Moodle)\n\n\nwrite a short (one-page) proposal\nstate your research question\nwhy this question is “interesting”\nformulate a hypothesis related to the research question\nwhere you will get the data to test the hypothesis\n\n\n\nThe final project presentation (Nov 26th)\n\nIt is an opportunity for you to present your final project to the class. The presentation should include the following:\n\nAn introduction to the research question\nAn overview of the data, including its source, collection method, and any relevant background information\nAn overview of the methods used\nvisualization of the results\nA brief discussion of the implications of the research for theory, policy or practice\nA conclusion\nA brief discussion of the limitations of the study (optional)\nA brief discussion of the future directions of the research (optional)\n\n\n\nA blog/website (Nov 30th)\n\n\nPresent and interpret your findings in a blog not more than 800 words and attached with at least 3 visualization of data and results\npublished electronically online e.g. Medium, Shorthand, WordPress, Github blog or other online public platform."
+  },
+  {
+    "objectID": "syllabus_tentative2.html#textbooks-and-reference",
+    "href": "syllabus_tentative2.html#textbooks-and-reference",
+    "title": "HKU SOCI7016 - Quantitative research methods",
+    "section": "Textbooks and Reference",
+    "text": "Textbooks and Reference\nI will draw materials from the following books in this course:\n\nImai, Kosuke and Nora Webb Willaims. 2022. Quantitative Social Science: An Introduction with Tidyverse, 2022. Princeton University Press.\nIsmay, Chester and Albert Y. Kim. 2022. Statistical Inference via Data Science: A ModernDive into R and the Tidyverse."
+  },
+  {
+    "objectID": "syllabus_tentative2.html#late-policy",
+    "href": "syllabus_tentative2.html#late-policy",
+    "title": "HKU SOCI7016 - Quantitative research methods",
+    "section": "Late Policy",
+    "text": "Late Policy\n\nAll course work assignment due dates will not be deferred except in cases of medical emergencies or family bereavement, for which written evidence must be supplied.\nApplications for extension of submission deadline must be made via email to the course instructor prior to the original deadline.\nLate submissions will be penalized 2 sub-grade if submitted 0-24 hours late and penalized 4 sub-grade if submitted 24-48 hours late. We will not accept any submissions after 48 hours — we will get F for the task.\nTechnical difficulties are not acceptable reasons for lateness."
+  },
+  {
+    "objectID": "syllabus_tentative2.html#academic-honesty-and-plagiarism",
+    "href": "syllabus_tentative2.html#academic-honesty-and-plagiarism",
+    "title": "HKU SOCI7016 - Quantitative research methods",
+    "section": "Academic honesty and plagiarism",
+    "text": "Academic honesty and plagiarism\nThe university has high expectations for ethical conduct among students. Students must always pursue academic honesty in their studies, as this is a condition for authentic learning and creative intellectual contributions. Committing the following (including but not limited to) dishonest behaviour is unacceptable in any circumstances:\n\nPlagiarism (i.e. use of other people’s work without proper acknowledgement);\nSubmitting an assignment that is not the student’s own work, including the use of prior students’ work\nForgery of any document or certificate\n\nPlease be reminded that disciplinary actions in connection with the violation of academic honesty may result in serious consequences. Plagiarism may be handled by the individual teacher or reported to the University Disciplinary Committee.\n\nResources:\n\nHKU Teaching & Learning – Plagiarism\nHKU Online Learning – Information Literacy Training: Academic Honesty\n\nIn this class, we will use AI tools, including ChatGPT, that harness large language models as pedagogical opportunities for learning and teaching in the course. Doing so will align with one of our course goals, which pertains to the evaluation of arguments and justification with evidence.\nOur class agreement will follow the University’s Policy on Use of Generative Artificial Intelligence for Teaching and Learning, which notes that “students who fail to make a full declaration and proper citation according to the course requirements may face disciplinary action”.\nFor this class, all submitted work should be written in your own words. Just as you cannot take credit for others’ writing in your assignments, you cannot use paraphrasing software (“spinbots”) or AI writing software (like ChatGPT) and submit the output as your own. Doing so in this is a violation of the University’s Policy on Use of Generative Artificial Intelligence for Teaching and Learning, which notes that “students who fail to make a full declaration and proper citation according to the course requirements may face disciplinary action”. At the beginning of the semester, we will identify examples of AI tools and discuss what constitutes plagiarism, cheating, and academic dishonesty. This will help to ensure that we are all on the same page about the policies for this course and how they connect to our learning outcomes.\nCourse privacy statement As noted in the Department’s Guidelines on the recording of lectures and teaching sessions, students may not audio or video record class meetings without permission from the instructor (and guest speakers, when applicable). If the instructor grants permission or if the teaching team posts videos themselves, students may keep recordings only for personal use and may not post recordings on the Internet, or otherwise distribute them. These policies protect the privacy rights of instructors and students, and the intellectual property and other rights of the university. Students who need lectures recorded for the purposes of an academic accommodation should contact CEDARS Special Educational Needs (SEN) Support."
+  },
+  {
+    "objectID": "syllabus_tentative2.html#research-ethics",
+    "href": "syllabus_tentative2.html#research-ethics",
+    "title": "HKU SOCI7016 - Quantitative research methods",
+    "section": "Research ethics",
+    "text": "Research ethics\nThis course involves completion of a research project as coursework. If your research involves human participants, it is necessary to obtain ethical approval prior to collecting data. Application forms should be submitted to your instructor/tutor for endorsement and onward forwarding to the Department for processing.\nWe are expected to adhere to the highest ethical standards in Social Science Research. For example, the American Sociological Association’s Code of Ethics sets forth the principles and ethical standards that underlie sociologists’ scientific and professional responsibilities and conduct."
+  },
+  {
+    "objectID": "syllabus_tentative2.html#student-wellbeing",
+    "href": "syllabus_tentative2.html#student-wellbeing",
+    "title": "HKU SOCI7016 - Quantitative research methods",
+    "section": "Student wellbeing",
+    "text": "Student wellbeing\nLife at university can get complicated. If you’re feeling stressed, overwhelmed, lost, anxious, depressed or are struggling with personal issues, do not hesitate to contact CEDARS Counselling and Psychological Services (CoPE). These services are free and completely confidential.\n+Room 301-323, 3/F, Main Building\n\n3917 8388\ncedars-cope@hku.hk\nCoPE appointment booking"
   }
 ]
