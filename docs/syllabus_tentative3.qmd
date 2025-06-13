@@ -1,0 +1,316 @@
+---
+title: "HKU SOCI7016 - Quantitative research methods"
+subtitle: "2025 Fall"
+author:
+    - name: "Kwan To Wong"
+      email: kwanto@hku.hk
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    html-math-method: katex
+  pdf:
+    toc: false
+    toc-depth: 3
+    number-sections: true
+    fig_caption: true
+    keep-tex: true
+    pdf-engine: xelatex
+    fontfamily: anttor
+    
+---
+
+```{r}
+#| echo: False
+#| eval: False
+#| message: False
+
+install.packages(c("tidyverse", "gt", "kableExtra"))
+
+
+
+```
+
+
+## Course details
+
+| Format    | Day                   | Time              | Location                       |
+|-----------|-----------------------|-------------------|--------------------------------|
+| Lectures  | Wed (to be confirmed) | 7pm - 9:50pm      | TBA                            |
+
+
+## Course objectives
+
+In this course, you will learn the basics of quantitative methods as applied to the social sciences. This involves two broad skill sets. First, a good command of the conceptual foundations of statistics is essential to understand why social scientists analyze data in some specific ways. Second, a hands-on experience in the computing and programming tools (R in our course) to both manage and analyze data is crucial to be able to apply the conceptual foundations of statistics to real-world data.
+
+## Course learning outcomes
+
+At the end of the course you should be able to:
+
++ Use R for data analysis
++ Summarize and visualize data
++ Wrangle data into tidy forms
++ Understand the basic concepts of probability and statistics
++ Quantify uncertainty in data analysis
++ Be able to use regression models to analyze data
+
+## Assessment Strategies (tentative)
+
++ Class participation (10%)
++ Test (40%)
++ Group Final project (50%)
+    - proposal (10%)
+    - presentation (20%)
+    - a blog/website (20%)
+
+## Course schedule (tentative)
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| warnings: false
+
+# tbl-cap: "Course Schedule (Tentative)"
+
+library(gt)
+library(dplyr)
+
+# Create data frame for the schedule
+schedule <- data.frame(
+  Week = 1:13,
+  Date = c("2025-09-03", "2025-09-10", "2025-09-17", "2025-09-24", 
+           "2025-10-01", "2025-10-08", "2025-10-15", "2025-10-22", 
+           "2025-10-29", "2025-11-05", "2025-11-12", "2025-11-19", 
+           "2025-11-26"),
+  Topic = c("Overview and Introduction to R",
+            "Data visualization", 
+            "Data wrangling",
+            "Probability and distributions", 
+            "Sampling distributions",
+            "Confidence intervals and Hypothesis testing", 
+            "Reading Week",
+            "Linear regression I",
+            "Linear regression II", 
+            "Logistic regression and more",
+            "Fixed-effects and DID", 
+            "Test",
+            "Final project presentations"),
+  Readings = c("Imai & Williams, Ch. 1",
+               "Ismay & Kim, Ch. 3",
+               "Ismay & Kim, Ch. 5",
+               "Imai & Williams, Ch. 2", 
+               "Imai & Williams, Ch. 3",
+               "Imai & Williams, Ch. 4", 
+               "-", 
+               "Imai & Williams, Ch. 5",
+               "Imai & Williams, Ch. 6", 
+               "Imai & Williams, Ch. 7",
+               "Imai & Williams, Ch. 8", 
+               "-",
+               "Proposal due Nov 5")
+)
+
+# Create gt table
+schedule %>%
+  gt() %>%
+  # Set table header
+  #tab_header(
+    #title = "Course Schedule (Tentative)",
+    #subtitle = "HKU SOCI7016 - Quantitative Research Methods, Fall 2025"
+  #) %>%
+  # Rename columns for clarity
+  cols_label(
+    Week = "Week",
+    Date = "Date",
+    Topic = "Topic",
+    Readings = "Readings/Assignments"
+  ) %>%
+  # Apply bold formatting to the "Test" row
+  tab_style(
+    style = cell_text(weight = "bold"),
+    locations = cells_body(
+      columns = everything(),
+      rows = Topic == "**Test**"
+    )
+  ) %>%
+  # Set table width to 100% of document content area
+  tab_options(
+    table.width = pct(100), # Full width of the content area
+    table.font.size = 15,
+    table.align = "center",
+    heading.title.font.size = 18,
+    heading.subtitle.font.size = 16,
+    column_labels.font.weight = "bold",
+    table.border.top.color = "black",
+    table.border.bottom.color = "black"
+  ) %>%
+  # Set proportional column widths to fill the table
+  cols_width(
+    Week ~ pct(10),  # 10% of table width
+    Date ~ pct(15),  # 15% of table width
+    Topic ~ pct(50), # 50% of table width
+    Readings ~ pct(25) # 25% of table width
+  ) %>%
+  # Center-align Week and Date columns
+  cols_align(
+    align = "center",
+    columns = c(Week, Date)
+  ) %>%
+  # Add footnote for Proposal due date
+  tab_footnote(
+    footnote = "Proposal must be submitted via Moodle by 5:00 PM.",
+    locations = cells_body(
+      columns = Readings,
+      rows = Readings == "Proposal due Nov 5"
+    )
+  ) %>%
+  # Apply a clean style
+  tab_options(
+    table.font.size = 16,
+    table.align = "center",
+    heading.title.font.size = 18,
+    heading.subtitle.font.size = 16,
+    column_labels.font.weight = "bold",
+    table.border.top.color = "black",
+    table.border.bottom.color = "black"
+  ) %>%
+  # Ensure compatibility with anttor font for PDF (if supported)
+  opt_table_font(
+    font = list("Antykwa Torunska", "Helvetica", "Arial")
+  )
+
+```
+
+## Test
+
+Test will be on **Nov 19th**. It will last 150 mins. It will cover all the materials covered in the syllabus and it will be a in-class exam. If you miss it, you will fail in this part. You will not be allowed to collaborate with other students or be able to communicate with any humans/AI/Internets about the exam. More information about the exam will be provided as it approaches.
+
+## Group Final project
+
+Each group will have a group of 3 students, with plus/minus 1 flexibility. If you really want to do an individual project, please seek my approval first.
+
+This is a `data analysis` project about a particular topic excites your group. No matter what the topic your group choose, your group need formula at least one key research question, find data to answer that question by using quantitative methods, and present those results for educated population.
+
+1. A proposal (submission due: Nov 5th 5pm in Moodle)
+    + write a short (one-page) proposal
+    + state your research question
+    + why this question is "interesting"
+    + formulate a hypothesis related to the research question
+    + where you will get the data to test the hypothesis
+
+<!--
+
++ Describe your explanatory variable(s) of interest and how it is measured
+  + need to observe variation in this variable in order to study it
++ Describe your outcome variable of interest and how it is measured
++ What observed pattern in the data would provide support for your hypothesis?
++ More importantly, what observed pattern would disprove your hypothesis?
+
+-->
+
+2. The final project presentation (**Nov 26th**)
+
+   It is an opportunity for you to present your final project to the class. The presentation should include the following:
+
+    + An introduction to the research question
+    + An overview of the data, including its source, collection method, and any relevant background information
+    + An overview of the methods used
+    + visualization of the results
+    + A brief discussion of the implications of the research for theory, policy or practice
+    + A conclusion
+    + A brief discussion of the limitations of the study (optional)
+    + A brief discussion of the future directions of the research (optional)
+
+<!--
++ To earn full credit on the visualizations and regression output, they should use informative labels and names and have a small number of digits presented
+
++ Tables should use kable or modelsummary to format output nicely
+-->
+
+3. A blog/website (**Nov 30th**)
+
+    + Present and interpret your findings in a blog not more than 800 words and attached
+with at least 3 visualization of data and results
+
+    + published electronically online
+  e.g. [Medium](https://medium.com/), [Shorthand](https://shorthand.com/), [WordPress](https://wordpress.com/), [Github blog](https://github.blog/) or other online public platform.
+
+## Textbooks and Reference
+
+I will draw materials from the following books in this course:
+
++ Imai, Kosuke and Nora Webb Willaims. 2022. Quantitative Social Science: An Introduction with Tidyverse, 2022. Princeton University Press.
+
++ Ismay, Chester and Albert Y. Kim. 2022. Statistical Inference via Data Science: A ModernDive into R and the Tidyverse.
+
+
+## Late Policy
+
++ All course work assignment due dates will not be deferred except in cases of medical emergencies or family bereavement, for which written evidence must be supplied.
+
++ Applications for extension of submission deadline must be made via email to the course instructor **prior to the original deadline**.
+
++ Late submissions will be penalized **2 sub-grade** if submitted 0-24 hours late and penalized **4 sub-grade** if submitted 24-48 hours late. We will not accept any submissions after 48 hours --- we will get **F** for the task.
+
++ Technical difficulties are not acceptable reasons for lateness.
+
+## Academic honesty and plagiarism
+
+The university has high expectations for ethical conduct among students. Students must always pursue academic honesty in their studies, as this is a condition for authentic learning and creative intellectual contributions. Committing the following (including but not limited to) dishonest behaviour is unacceptable in any circumstances:
+
+
++ Plagiarism (i.e. use of other people’s work without proper acknowledgement);
+
++ Submitting an assignment that is not the student’s own work, including the use of prior students’ work
+
++ Forgery of any document or certificate
+
+
+Please be reminded that disciplinary actions in connection with the violation of academic honesty may result in serious consequences. Plagiarism may be handled by the individual teacher or reported to the University Disciplinary Committee.
+
++ Resources: 
+    + [HKU Teaching & Learning – Plagiarism](https://tl.hku.hk/plagiarism/)
+    + [HKU Online Learning – Information Literacy Training: Academic Honesty](https://learning.hku.hk/catalog/course/ilt01/)
+  
++ In this class, we will use AI tools, including ChatGPT, that harness large language models as pedagogical opportunities for learning and teaching in the course. Doing so will align with one of our course goals, which pertains to the evaluation of arguments and justification with evidence.
+
++ Our class agreement will follow the University’s Policy on Use of Generative Artificial Intelligence for Teaching and Learning, which notes that “students who fail to make a full declaration and proper citation according to the course requirements may face disciplinary action”.
+
++ For this class, all submitted work should be written in your own words. Just as you cannot take credit for others’ writing in your assignments, you cannot use paraphrasing software (“spinbots”) or AI writing software (like ChatGPT) and submit the output as your own. Doing so in this is a violation of the University’s [Policy on Use of Generative Artificial Intelligence for Teaching and Learning](https://intraweb.hku.hk/reserved_1/tlearn/genai/gaitf-policy-dissemination-202309.pdf), which notes that “students who fail to make a full declaration and proper citation according to the course requirements may face disciplinary action”. At the beginning of the semester, we will identify examples of AI tools and discuss what constitutes plagiarism, cheating, and academic dishonesty. This will help to ensure that we are all on the same page about the policies for this course and how they connect to our learning outcomes.
+
+
++ Course privacy statement As noted in the Department’s Guidelines on the recording of lectures and teaching sessions, students may not audio or video record class meetings without permission from the instructor (and guest speakers, when applicable). If the instructor grants permission or if the teaching team posts videos themselves, students may keep recordings only for personal use and may not post recordings on the Internet, or otherwise distribute them. These policies protect the privacy rights of instructors and students, and the intellectual property and other rights of the university. Students who need lectures recorded for the purposes of an academic accommodation should contact CEDARS Special Educational Needs (SEN) Support.
+
+
+## Research ethics
+
+This course involves completion of a research project as coursework. If your research involves human participants, it is necessary to obtain ethical approval prior to collecting data. Application forms should be submitted to your instructor/tutor for endorsement and onward forwarding to the Department for processing.
+
+
+We are expected to adhere to the highest ethical standards in Social Science Research. For example, the American Sociological Association’s [Code of Ethics](https://www.asanet.org/wp-content/uploads/asa_code_of_ethics-june2018a.pdf) sets forth the principles and ethical standards that underlie sociologists’ scientific and professional responsibilities and conduct. 
+
+## Student wellbeing
+
+Life at university can get complicated. If you’re feeling stressed, overwhelmed, lost, anxious, depressed or are struggling with personal issues, do not hesitate to contact CEDARS [Counselling and Psychological Services (CoPE)](https://www.cedars.hku.hk/cope/cps). These services are free and completely confidential.
+
+Room 301-323, 3/F, Main Building
+
+3917 8388
+
+<cedars-cope@hku.hk>
+
+[CoPE appointment booking](https://www.cedars.hku.hk/cope/cps/appointment)
+
+
+
+```{r}
+#| echo: False
+#| eval: False
+#usethis::create_github_token()
+
+gitcreds::gitcreds_set()
+
+```
